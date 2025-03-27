@@ -463,4 +463,1537 @@ inline constexpr long variadic_using = 0;
 
 } // namespace dywoq::version_wrapper::language
 
+namespace dywoq::version_wrapper::library {
+#if defined(__cpp_lib_adaptor_iterator_pair_constructor)
+inline constexpr long adaptor_iterator_pair_constructor = __cpp_lib_adaptor_iterator_pair_constructor;
+#else
+inline constexpr long adaptor_iterator_pair_constructor = 0;
+#endif
+
+#if defined(__cpp_lib_addressof_constexpr)
+inline constexpr long addressof_constexpr = __cpp_lib_addressof_constexpr;
+#else
+inline constexpr long addressof_constexpr = 0;
+#endif
+
+#if defined(__cpp_lib_algorithm_default_value_type)
+inline constexpr long algorithm_default_value_type = __cpp_lib_algorithm_default_value_type;
+#else
+inline constexpr long algorithm_default_value_type = 0;
+#endif
+
+#if defined(__cpp_lib_algorithm_iterator_requirements)
+inline constexpr long algorithm_iterator_requirements = __cpp_lib_algorithm_iterator_requirements;
+#else
+inline constexpr long algorithm_iterator_requirements = 0;
+#endif
+
+#if defined(__cpp_lib_aligned_accessor)
+inline constexpr long aligned_accessor = __cpp_lib_aligned_accessor;
+#else
+inline constexpr long aligned_accessor = 0;
+#endif
+
+#if defined(__cpp_lib_allocate_at_least)
+inline constexpr long allocate_at_least = __cpp_lib_allocate_at_least;
+#else
+inline constexpr long allocate_at_least = 0;
+#endif
+
+#if defined(__cpp_lib_allocator_traits_is_always_equal)
+inline constexpr long allocator_traits_is_always_equal = __cpp_lib_allocator_traits_is_always_equal;
+#else
+inline constexpr long allocator_traits_is_always_equal = 0;
+#endif
+
+#if defined(__cpp_lib_any)
+inline constexpr long any = __cpp_lib_any;
+#else
+inline constexpr long any = 0;
+#endif
+
+#if defined(__cpp_lib_apply)
+inline constexpr long apply = __cpp_lib_apply;
+#else
+inline constexpr long apply = 0;
+#endif
+
+#if defined(__cpp_lib_array_constexpr)
+inline constexpr long array_constexpr = __cpp_lib_array_constexpr;
+#else
+inline constexpr long array_constexpr = 0;
+#endif
+
+#if defined(__cpp_lib_as_const)
+inline constexpr long as_const = __cpp_lib_as_const;
+#else
+inline constexpr long as_const = 0;
+#endif
+
+#if defined(__cpp_lib_associative_heterogeneous_erasure)
+inline constexpr long associative_heterogeneous_erasure = __cpp_lib_associative_heterogeneous_erasure;
+#else
+inline constexpr long associative_heterogeneous_erasure = 0;
+#endif
+
+#if defined(__cpp_lib_associative_heterogeneous_insertion)
+inline constexpr long associative_heterogeneous_insertion = __cpp_lib_associative_heterogeneous_insertion;
+#else
+inline constexpr long associative_heterogeneous_insertion = 0;
+#endif
+
+#if defined(__cpp_lib_assume_aligned)
+inline constexpr long assume_aligned = __cpp_lib_assume_aligned;
+#else
+inline constexpr long assume_aligned = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_flag_test)
+inline constexpr long atomic_flag_test = __cpp_lib_atomic_flag_test;
+#else
+inline constexpr long atomic_flag_test = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_float)
+inline constexpr long atomic_float = __cpp_lib_atomic_float;
+#else
+inline constexpr long atomic_float = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_is_always_lock_free)
+inline constexpr long atomic_is_always_lock_free = __cpp_lib_atomic_is_always_lock_free;
+#else
+inline constexpr long atomic_is_always_lock_free = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_lock_free_type_aliases)
+inline constexpr long atomic_lock_free_type_aliases = __cpp_lib_atomic_lock_free_type_aliases;
+#else
+inline constexpr long atomic_lock_free_type_aliases = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_min_max)
+inline constexpr long atomic_min_max = __cpp_lib_atomic_min_max;
+#else
+inline constexpr long atomic_min_max = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_ref)
+inline constexpr long atomic_ref = __cpp_lib_atomic_ref;
+#else
+inline constexpr long atomic_ref = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_shared_ptr)
+inline constexpr long atomic_shared_ptr = __cpp_lib_atomic_shared_ptr;
+#else
+inline constexpr long atomic_shared_ptr = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_value_initialization)
+inline constexpr long atomic_value_initialization = __cpp_lib_atomic_value_initialization;
+#else
+inline constexpr long atomic_value_initialization = 0;
+#endif
+
+#if defined(__cpp_lib_atomic_wait)
+inline constexpr long atomic_wait = __cpp_lib_atomic_wait;
+#else
+inline constexpr long atomic_wait = 0;
+#endif
+
+#if defined(__cpp_lib_barrier)
+inline constexpr long barrier = __cpp_lib_barrier;
+#else
+inline constexpr long barrier = 0;
+#endif
+
+#if defined(__cpp_lib_bind_back)
+inline constexpr long bind_back = __cpp_lib_bind_back;
+#else
+inline constexpr long bind_back = 0;
+#endif
+
+#if defined(__cpp_lib_bind_front)
+inline constexpr long bind_front = __cpp_lib_bind_front;
+#else
+inline constexpr long bind_front = 0;
+#endif
+
+#if defined(__cpp_lib_bit_cast)
+inline constexpr long bit_cast = __cpp_lib_bit_cast;
+#else
+inline constexpr long bit_cast = 0;
+#endif
+
+#if defined(__cpp_lib_bitops)
+inline constexpr long bitops = __cpp_lib_bitops;
+#else
+inline constexpr long bitops = 0;
+#endif
+
+#if defined(__cpp_lib_bitset)
+inline constexpr long bitset = __cpp_lib_bitset;
+#else
+inline constexpr long bitset = 0;
+#endif
+
+#if defined(__cpp_lib_bool_constant)
+inline constexpr long bool_constant = __cpp_lib_bool_constant;
+#else
+inline constexpr long bool_constant = 0;
+#endif
+
+#if defined(__cpp_lib_bounded_array_traits)
+inline constexpr long bounded_array_traits = __cpp_lib_bounded_array_traits;
+#else
+inline constexpr long bounded_array_traits = 0;
+#endif
+
+#if defined(__cpp_lib_boyer_moore_searcher)
+inline constexpr long boyer_moore_searcher = __cpp_lib_boyer_moore_searcher;
+#else
+inline constexpr long boyer_moore_searcher = 0;
+#endif
+
+#if defined(__cpp_lib_byte)
+inline constexpr long byte = __cpp_lib_byte;
+#else
+inline constexpr long byte = 0;
+#endif
+
+#if defined(__cpp_lib_byteswap)
+inline constexpr long byteswap = __cpp_lib_byteswap;
+#else
+inline constexpr long byteswap = 0;
+#endif
+
+#if defined(__cpp_lib_char8_t)
+inline constexpr long char8_t_ = __cpp_lib_char8_t;
+#else
+inline constexpr long char8_t_ = 0;
+#endif
+
+#if defined(__cpp_lib_chrono)
+inline constexpr long chrono = __cpp_lib_chrono;
+#else
+inline constexpr long chrono = 0;
+#endif
+
+#if defined(__cpp_lib_chrono_udls)
+inline constexpr long chrono_udls = __cpp_lib_chrono_udls;
+#else
+inline constexpr long chrono_udls = 0;
+#endif
+
+#if defined(__cpp_lib_clamp)
+inline constexpr long clamp = __cpp_lib_clamp;
+#else
+inline constexpr long clamp = 0;
+#endif
+
+#if defined(__cpp_lib_common_reference)
+inline constexpr long common_reference = __cpp_lib_common_reference;
+#else
+inline constexpr long common_reference = 0;
+#endif
+
+#if defined(__cpp_lib_common_reference_wrapper)
+inline constexpr long common_reference_wrapper = __cpp_lib_common_reference_wrapper;
+#else
+inline constexpr long common_reference_wrapper = 0;
+#endif
+
+#if defined(__cpp_lib_complex_udls)
+inline constexpr long complex_udls = __cpp_lib_complex_udls;
+#else
+inline constexpr long complex_udls = 0;
+#endif
+
+#if defined(__cpp_lib_concepts)
+inline constexpr long concepts = __cpp_lib_concepts;
+#else
+inline constexpr long concepts = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_algorithms)
+inline constexpr long constexpr_algorithms = __cpp_lib_constexpr_algorithms;
+#else
+inline constexpr long constexpr_algorithms = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_atomic)
+inline constexpr long constexpr_atomic = __cpp_lib_constexpr_atomic;
+#else
+inline constexpr long constexpr_atomic = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_bitset)
+inline constexpr long constexpr_bitset = __cpp_lib_constexpr_bitset;
+#else
+inline constexpr long constexpr_bitset = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_charconv)
+inline constexpr long constexpr_charconv = __cpp_lib_constexpr_charconv;
+#else
+inline constexpr long constexpr_charconv = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_cmath)
+inline constexpr long constexpr_cmath = __cpp_lib_constexpr_cmath;
+#else
+inline constexpr long constexpr_cmath = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_complex)
+inline constexpr long constexpr_complex = __cpp_lib_constexpr_complex;
+#else
+inline constexpr long constexpr_complex = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_containers)
+inline constexpr long constexpr_containers = __cpp_lib_constexpr_containers;
+#else
+inline constexpr long constexpr_containers = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_dynamic_alloc)
+inline constexpr long constexpr_dynamic_alloc = __cpp_lib_constexpr_dynamic_alloc;
+#else
+inline constexpr long constexpr_dynamic_alloc = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_exceptions)
+inline constexpr long constexpr_exceptions = __cpp_lib_constexpr_exceptions;
+#else
+inline constexpr long constexpr_exceptions = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_functional)
+inline constexpr long constexpr_functional = __cpp_lib_constexpr_functional;
+#else
+inline constexpr long constexpr_functional = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_inplace_vector)
+inline constexpr long constexpr_inplace_vector = __cpp_lib_constexpr_inplace_vector;
+#else
+inline constexpr long constexpr_inplace_vector = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_iterator)
+inline constexpr long constexpr_iterator = __cpp_lib_constexpr_iterator;
+#else
+inline constexpr long constexpr_iterator = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_memory)
+inline constexpr long constexpr_memory = __cpp_lib_constexpr_memory;
+#else
+inline constexpr long constexpr_memory = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_new)
+inline constexpr long constexpr_new = __cpp_lib_constexpr_new;
+#else
+inline constexpr long constexpr_new = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_numeric)
+inline constexpr long constexpr_numeric = __cpp_lib_constexpr_numeric;
+#else
+inline constexpr long constexpr_numeric = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_string)
+inline constexpr long constexpr_string = __cpp_lib_constexpr_string;
+#else
+inline constexpr long constexpr_string = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_string_view)
+inline constexpr long constexpr_string_view = __cpp_lib_constexpr_string_view;
+#else
+inline constexpr long constexpr_string_view = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_tuple)
+inline constexpr long constexpr_tuple = __cpp_lib_constexpr_tuple;
+#else
+inline constexpr long constexpr_tuple = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_typeinfo)
+inline constexpr long constexpr_typeinfo = __cpp_lib_constexpr_typeinfo;
+#else
+inline constexpr long constexpr_typeinfo = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_utility)
+inline constexpr long constexpr_utility = __cpp_lib_constexpr_utility;
+#else
+inline constexpr long constexpr_utility = 0;
+#endif
+
+#if defined(__cpp_lib_constexpr_vector)
+inline constexpr long constexpr_vector = __cpp_lib_constexpr_vector;
+#else
+inline constexpr long constexpr_vector = 0;
+#endif
+
+#if defined(__cpp_lib_constrained_equality)
+inline constexpr long constrained_equality = __cpp_lib_constrained_equality;
+#else
+inline constexpr long constrained_equality = 0;
+#endif
+
+#if defined(__cpp_lib_containers_ranges)
+inline constexpr long containers_ranges = __cpp_lib_containers_ranges;
+#else
+inline constexpr long containers_ranges = 0;
+#endif
+
+#if defined(__cpp_lib_contracts)
+inline constexpr long contracts = __cpp_lib_contracts;
+#else
+inline constexpr long contracts = 0;
+#endif
+
+#if defined(__cpp_lib_copyable_function)
+inline constexpr long copyable_function = __cpp_lib_copyable_function;
+#else
+inline constexpr long copyable_function = 0;
+#endif
+
+#if defined(__cpp_lib_coroutine)
+inline constexpr long coroutine = __cpp_lib_coroutine;
+#else
+inline constexpr long coroutine = 0;
+#endif
+
+#if defined(__cpp_lib_debugging)
+inline constexpr long debugging = __cpp_lib_debugging;
+#else
+inline constexpr long debugging = 0;
+#endif
+
+#if defined(__cpp_lib_destroying_delete)
+inline constexpr long destroying_delete = __cpp_lib_destroying_delete;
+#else
+inline constexpr long destroying_delete = 0;
+#endif
+
+#if defined(__cpp_lib_enable_shared_from_this)
+inline constexpr long enable_shared_from_this = __cpp_lib_enable_shared_from_this;
+#else
+inline constexpr long enable_shared_from_this = 0;
+#endif
+
+#if defined(__cpp_lib_endian)
+inline constexpr long endian = __cpp_lib_endian;
+#else
+inline constexpr long endian = 0;
+#endif
+
+#if defined(__cpp_lib_erase_if)
+inline constexpr long erase_if = __cpp_lib_erase_if;
+#else
+inline constexpr long erase_if = 0;
+#endif
+
+#if defined(__cpp_lib_exchange_function)
+inline constexpr long exchange_function = __cpp_lib_exchange_function;
+#else
+inline constexpr long exchange_function = 0;
+#endif
+
+#if defined(__cpp_lib_execution)
+inline constexpr long execution = __cpp_lib_execution;
+#else
+inline constexpr long execution = 0;
+#endif
+
+#if defined(__cpp_lib_expected)
+inline constexpr long expected = __cpp_lib_expected;
+#else
+inline constexpr long expected = 0;
+#endif
+
+#if defined(__cpp_lib_filesystem)
+inline constexpr long filesystem = __cpp_lib_filesystem;
+#else
+inline constexpr long filesystem = 0;
+#endif
+
+#if defined(__cpp_lib_flat_map)
+inline constexpr long flat_map = __cpp_lib_flat_map;
+#else
+inline constexpr long flat_map = 0;
+#endif
+
+#if defined(__cpp_lib_flat_set)
+inline constexpr long flat_set = __cpp_lib_flat_set;
+#else
+inline constexpr long flat_set = 0;
+#endif
+
+#if defined(__cpp_lib_format)
+inline constexpr long format = __cpp_lib_format;
+#else
+inline constexpr long format = 0;
+#endif
+
+#if defined(__cpp_lib_format_path)
+inline constexpr long format_path = __cpp_lib_format_path;
+#else
+inline constexpr long format_path = 0;
+#endif
+
+#if defined(__cpp_lib_format_ranges)
+inline constexpr long format_ranges = __cpp_lib_format_ranges;
+#else
+inline constexpr long format_ranges = 0;
+#endif
+
+#if defined(__cpp_lib_format_uchar)
+inline constexpr long format_uchar = __cpp_lib_format_uchar;
+#else
+inline constexpr long format_uchar = 0;
+#endif
+
+#if defined(__cpp_lib_formatters)
+inline constexpr long formatters = __cpp_lib_formatters;
+#else
+inline constexpr long formatters = 0;
+#endif
+
+#if defined(__cpp_lib_forward_like)
+inline constexpr long forward_like = __cpp_lib_forward_like;
+#else
+inline constexpr long forward_like = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_algorithm)
+inline constexpr long freestanding_algorithm = __cpp_lib_freestanding_algorithm;
+#else
+inline constexpr long freestanding_algorithm = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_array)
+inline constexpr long freestanding_array = __cpp_lib_freestanding_array;
+#else
+inline constexpr long freestanding_array = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_char_traits)
+inline constexpr long freestanding_char_traits = __cpp_lib_freestanding_char_traits;
+#else
+inline constexpr long freestanding_char_traits = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_charconv)
+inline constexpr long freestanding_charconv = __cpp_lib_freestanding_charconv;
+#else
+inline constexpr long freestanding_charconv = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_cstdlib)
+inline constexpr long freestanding_cstdlib = __cpp_lib_freestanding_cstdlib;
+#else
+inline constexpr long freestanding_cstdlib = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_cstring)
+inline constexpr long freestanding_cstring = __cpp_lib_freestanding_cstring;
+#else
+inline constexpr long freestanding_cstring = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_cwchar)
+inline constexpr long freestanding_cwchar = __cpp_lib_freestanding_cwchar;
+#else
+inline constexpr long freestanding_cwchar = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_errc)
+inline constexpr long freestanding_errc = __cpp_lib_freestanding_errc;
+#else
+inline constexpr long freestanding_errc = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_expected)
+inline constexpr long freestanding_expected = __cpp_lib_freestanding_expected;
+#else
+inline constexpr long freestanding_expected = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_feature_test_macros)
+inline constexpr long freestanding_feature_test_macros = __cpp_lib_freestanding_feature_test_macros;
+#else
+inline constexpr long freestanding_feature_test_macros = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_functional)
+inline constexpr long freestanding_functional = __cpp_lib_freestanding_functional;
+#else
+inline constexpr long freestanding_functional = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_iterator)
+inline constexpr long freestanding_iterator = __cpp_lib_freestanding_iterator;
+#else
+inline constexpr long freestanding_iterator = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_mdspan)
+inline constexpr long freestanding_mdspan = __cpp_lib_freestanding_mdspan;
+#else
+inline constexpr long freestanding_mdspan = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_memory)
+inline constexpr long freestanding_memory = __cpp_lib_freestanding_memory;
+#else
+inline constexpr long freestanding_memory = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_numeric)
+inline constexpr long freestanding_numeric = __cpp_lib_freestanding_numeric;
+#else
+inline constexpr long freestanding_numeric = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_operator_new)
+inline constexpr long freestanding_operator_new = __cpp_lib_freestanding_operator_new;
+#else
+inline constexpr long freestanding_operator_new = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_optional)
+inline constexpr long freestanding_optional = __cpp_lib_freestanding_optional;
+#else
+inline constexpr long freestanding_optional = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_ranges)
+inline constexpr long freestanding_ranges = __cpp_lib_freestanding_ranges;
+#else
+inline constexpr long freestanding_ranges = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_ratio)
+inline constexpr long freestanding_ratio = __cpp_lib_freestanding_ratio;
+#else
+inline constexpr long freestanding_ratio = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_string_view)
+inline constexpr long freestanding_string_view = __cpp_lib_freestanding_string_view;
+#else
+inline constexpr long freestanding_string_view = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_tuple)
+inline constexpr long freestanding_tuple = __cpp_lib_freestanding_tuple;
+#else
+inline constexpr long freestanding_tuple = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_utility)
+inline constexpr long freestanding_utility = __cpp_lib_freestanding_utility;
+#else
+inline constexpr long freestanding_utility = 0;
+#endif
+
+#if defined(__cpp_lib_freestanding_variant)
+inline constexpr long freestanding_variant = __cpp_lib_freestanding_variant;
+#else
+inline constexpr long freestanding_variant = 0;
+#endif
+
+#if defined(__cpp_lib_fstream_native_handle)
+inline constexpr long fstream_native_handle = __cpp_lib_fstream_native_handle;
+#else
+inline constexpr long fstream_native_handle = 0;
+#endif
+
+#if defined(__cpp_lib_function_ref)
+inline constexpr long function_ref = __cpp_lib_function_ref;
+#else
+inline constexpr long function_ref = 0;
+#endif
+
+#if defined(__cpp_lib_gcd_lcm)
+inline constexpr long gcd_lcm = __cpp_lib_gcd_lcm;
+#else
+inline constexpr long gcd_lcm = 0;
+#endif
+
+#if defined(__cpp_lib_generator)
+inline constexpr long generator = __cpp_lib_generator;
+#else
+inline constexpr long generator = 0;
+#endif
+
+#if defined(__cpp_lib_generic_associative_lookup)
+inline constexpr long generic_associative_lookup = __cpp_lib_generic_associative_lookup;
+#else
+inline constexpr long generic_associative_lookup = 0;
+#endif
+
+#if defined(__cpp_lib_generic_unordered_lookup)
+inline constexpr long generic_unordered_lookup = __cpp_lib_generic_unordered_lookup;
+#else
+inline constexpr long generic_unordered_lookup = 0;
+#endif
+
+#if defined(__cpp_lib_hardware_interference_size)
+inline constexpr long hardware_interference_size = __cpp_lib_hardware_interference_size;
+#else
+inline constexpr long hardware_interference_size = 0;
+#endif
+
+#if defined(__cpp_lib_hive)
+inline constexpr long hive = __cpp_lib_hive;
+#else
+inline constexpr long hive = 0;
+#endif
+
+#if defined(__cpp_lib_has_unique_object_representations)
+inline constexpr long has_unique_object_representations = __cpp_lib_has_unique_object_representations;
+#else
+inline constexpr long has_unique_object_representations = 0;
+#endif
+
+#if defined(__cpp_lib_hazard_pointer)
+inline constexpr long hazard_pointer = __cpp_lib_hazard_pointer;
+#else
+inline constexpr long hazard_pointer = 0;
+#endif
+
+#if defined(__cpp_lib_hypot)
+inline constexpr long hypot = __cpp_lib_hypot;
+#else
+inline constexpr long hypot = 0;
+#endif
+
+#if defined(__cpp_lib_incomplete_container_elements)
+inline constexpr long incomplete_container_elements = __cpp_lib_incomplete_container_elements;
+#else
+inline constexpr long incomplete_container_elements = 0;
+#endif
+
+#if defined(__cpp_lib_indirect)
+inline constexpr long indirect = __cpp_lib_indirect;
+#else
+inline constexpr long indirect = 0;
+#endif
+
+#if defined(__cpp_lib_inplace_vector)
+inline constexpr long inplace_vector = __cpp_lib_inplace_vector;
+#else
+inline constexpr long inplace_vector = 0;
+#endif
+
+#if defined(__cpp_lib_int_pow2)
+inline constexpr long int_pow2 = __cpp_lib_int_pow2;
+#else
+inline constexpr long int_pow2 = 0;
+#endif
+
+#if defined(__cpp_lib_integer_comparison_functions)
+inline constexpr long integer_comparison_functions = __cpp_lib_integer_comparison_functions;
+#else
+inline constexpr long integer_comparison_functions = 0;
+#endif
+
+#if defined(__cpp_lib_integer_sequence)
+inline constexpr long integer_sequence = __cpp_lib_integer_sequence;
+#else
+inline constexpr long integer_sequence = 0;
+#endif
+
+#if defined(__cpp_lib_integral_constant_callable)
+inline constexpr long integral_constant_callable = __cpp_lib_integral_constant_callable;
+#else
+inline constexpr long integral_constant_callable = 0;
+#endif
+
+#if defined(__cpp_lib_interpolate)
+inline constexpr long interpolate = __cpp_lib_interpolate;
+#else
+inline constexpr long interpolate = 0;
+#endif
+
+#if defined(__cpp_lib_invoke)
+inline constexpr long invoke = __cpp_lib_invoke;
+#else
+inline constexpr long invoke = 0;
+#endif
+
+#if defined(__cpp_lib_invoke_r)
+inline constexpr long invoke_r = __cpp_lib_invoke_r;
+#else
+inline constexpr long invoke_r = 0;
+#endif
+
+#if defined(__cpp_lib_ios_noreplace)
+inline constexpr long ios_noreplace = __cpp_lib_ios_noreplace;
+#else
+inline constexpr long ios_noreplace = 0;
+#endif
+
+#if defined(__cpp_lib_is_aggregate)
+inline constexpr long is_aggregate = __cpp_lib_is_aggregate;
+#else
+inline constexpr long is_aggregate = 0;
+#endif
+
+#if defined(__cpp_lib_is_constant_evaluated)
+inline constexpr long is_constant_evaluated = __cpp_lib_is_constant_evaluated;
+#else
+inline constexpr long is_constant_evaluated = 0;
+#endif
+
+#if defined(__cpp_lib_is_final)
+inline constexpr long is_final = __cpp_lib_is_final;
+#else
+inline constexpr long is_final = 0;
+#endif
+
+#if defined(__cpp_lib_is_implicit_lifetime)
+inline constexpr long is_implicit_lifetime = __cpp_lib_is_implicit_lifetime;
+#else
+inline constexpr long is_implicit_lifetime = 0;
+#endif
+
+#if defined(__cpp_lib_is_invocable)
+inline constexpr long is_invocable = __cpp_lib_is_invocable;
+#else
+inline constexpr long is_invocable = 0;
+#endif
+
+#if defined(__cpp_lib_is_layout_compatible)
+inline constexpr long is_layout_compatible = __cpp_lib_is_layout_compatible;
+#else
+inline constexpr long is_layout_compatible = 0;
+#endif
+
+#if defined(__cpp_lib_is_nothrow_convertible)
+inline constexpr long is_nothrow_convertible = __cpp_lib_is_nothrow_convertible;
+#else
+inline constexpr long is_nothrow_convertible = 0;
+#endif
+
+#if defined(__cpp_lib_is_null_pointer)
+inline constexpr long is_null_pointer = __cpp_lib_is_null_pointer;
+#else
+inline constexpr long is_null_pointer = 0;
+#endif
+
+#if defined(__cpp_lib_is_pointer_interconvertible)
+inline constexpr long is_pointer_interconvertible = __cpp_lib_is_pointer_interconvertible;
+#else
+inline constexpr long is_pointer_interconvertible = 0;
+#endif
+
+#if defined(__cpp_lib_is_scoped_enum)
+inline constexpr long is_scoped_enum = __cpp_lib_is_scoped_enum;
+#else
+inline constexpr long is_scoped_enum = 0;
+#endif
+
+#if defined(__cpp_lib_is_sufficiently_aligned)
+inline constexpr long is_sufficiently_aligned = __cpp_lib_is_sufficiently_aligned;
+#else
+inline constexpr long is_sufficiently_aligned = 0;
+#endif
+
+#if defined(__cpp_lib_is_swappable)
+inline constexpr long is_swappable = __cpp_lib_is_swappable;
+#else
+inline constexpr long is_swappable = 0;
+#endif
+
+#if defined(__cpp_lib_is_virtual_base_of)
+inline constexpr long is_virtual_base_of = __cpp_lib_is_virtual_base_of;
+#else
+inline constexpr long is_virtual_base_of = 0;
+#endif
+
+#if defined(__cpp_lib_is_within_lifetime)
+inline constexpr long is_within_lifetime = __cpp_lib_is_within_lifetime;
+#else
+inline constexpr long is_within_lifetime = 0;
+#endif
+
+#if defined(__cpp_lib_jthread)
+inline constexpr long jthread = __cpp_lib_jthread;
+#else
+inline constexpr long jthread = 0;
+#endif
+
+#if defined(__cpp_lib_latch)
+inline constexpr long latch = __cpp_lib_latch;
+#else
+inline constexpr long latch = 0;
+#endif
+
+#if defined(__cpp_lib_launder)
+inline constexpr long launder = __cpp_lib_launder;
+#else
+inline constexpr long launder = 0;
+#endif
+
+#if defined(__cpp_lib_linalg)
+inline constexpr long linalg = __cpp_lib_linalg;
+#else
+inline constexpr long linalg = 0;
+#endif
+
+#if defined(__cpp_lib_list_remove_return_type)
+inline constexpr long list_remove_return_type = __cpp_lib_list_remove_return_type;
+#else
+inline constexpr long list_remove_return_type = 0;
+#endif
+
+#if defined(__cpp_lib_logical_traits)
+inline constexpr long logical_traits = __cpp_lib_logical_traits;
+#else
+inline constexpr long logical_traits = 0;
+#endif
+
+#if defined(__cpp_lib_make_from_tuple)
+inline constexpr long make_from_tuple = __cpp_lib_make_from_tuple;
+#else
+inline constexpr long make_from_tuple = 0;
+#endif
+
+#if defined(__cpp_lib_make_reverse_iterator)
+inline constexpr long make_reverse_iterator = __cpp_lib_make_reverse_iterator;
+#else
+inline constexpr long make_reverse_iterator = 0;
+#endif
+
+#if defined(__cpp_lib_make_unique)
+inline constexpr long make_unique = __cpp_lib_make_unique;
+#else
+inline constexpr long make_unique = 0;
+#endif
+
+#if defined(__cpp_lib_map_try_emplace)
+inline constexpr long map_try_emplace = __cpp_lib_map_try_emplace;
+#else
+inline constexpr long map_try_emplace = 0;
+#endif
+
+#if defined(__cpp_lib_math_constants)
+inline constexpr long math_constants = __cpp_lib_math_constants;
+#else
+inline constexpr long math_constants = 0;
+#endif
+
+#if defined(__cpp_lib_math_special_functions)
+inline constexpr long math_special_functions = __cpp_lib_math_special_functions;
+#else
+inline constexpr long math_special_functions = 0;
+#endif
+
+#if defined(__cpp_lib_mdspan)
+inline constexpr long mdspan = __cpp_lib_mdspan;
+#else
+inline constexpr long mdspan = 0;
+#endif
+
+#if defined(__cpp_lib_memory_resource)
+inline constexpr long memory_resource = __cpp_lib_memory_resource;
+#else
+inline constexpr long memory_resource = 0;
+#endif
+
+#if defined(__cpp_lib_modules)
+inline constexpr long modules = __cpp_lib_modules;
+#else
+inline constexpr long modules = 0;
+#endif
+
+#if defined(__cpp_lib_move_iterator_concept)
+inline constexpr long move_iterator_concept = __cpp_lib_move_iterator_concept;
+#else
+inline constexpr long move_iterator_concept = 0;
+#endif
+
+#if defined(__cpp_lib_move_only_function)
+inline constexpr long move_only_function = __cpp_lib_move_only_function;
+#else
+inline constexpr long move_only_function = 0;
+#endif
+
+#if defined(__cpp_lib_node_extract)
+inline constexpr long node_extract = __cpp_lib_node_extract;
+#else
+inline constexpr long node_extract = 0;
+#endif
+
+#if defined(__cpp_lib_nonmember_container_access)
+inline constexpr long nonmember_container_access = __cpp_lib_nonmember_container_access;
+#else
+inline constexpr long nonmember_container_access = 0;
+#endif
+
+#if defined(__cpp_lib_not_fn)
+inline constexpr long not_fn = __cpp_lib_not_fn;
+#else
+inline constexpr long not_fn = 0;
+#endif
+
+#if defined(__cpp_lib_null_iterators)
+inline constexpr long null_iterators = __cpp_lib_null_iterators;
+#else
+inline constexpr long null_iterators = 0;
+#endif
+
+#if defined(__cpp_lib_optional)
+inline constexpr long optional = __cpp_lib_optional;
+#else
+inline constexpr long optional = 0;
+#endif
+
+#if defined(__cpp_lib_optional_range_support)
+inline constexpr long optional_range_support = __cpp_lib_optional_range_support;
+#else
+inline constexpr long optional_range_support = 0;
+#endif
+
+#if defined(__cpp_lib_out_ptr)
+inline constexpr long out_ptr = __cpp_lib_out_ptr;
+#else
+inline constexpr long out_ptr = 0;
+#endif
+
+#if defined(__cpp_lib_parallel_algorithm)
+inline constexpr long parallel_algorithm = __cpp_lib_parallel_algorithm;
+#else
+inline constexpr long parallel_algorithm = 0;
+#endif
+
+#if defined(__cpp_lib_polymorphic)
+inline constexpr long polymorphic = __cpp_lib_polymorphic;
+#else
+inline constexpr long polymorphic = 0;
+#endif
+
+#if defined(__cpp_lib_polymorphic_allocator)
+inline constexpr long polymorphic_allocator = __cpp_lib_polymorphic_allocator;
+#else
+inline constexpr long polymorphic_allocator = 0;
+#endif
+
+#if defined(__cpp_lib_print)
+inline constexpr long print = __cpp_lib_print;
+#else
+inline constexpr long print = 0;
+#endif
+
+#if defined(__cpp_lib_quoted_string_io)
+inline constexpr long quoted_string_io = __cpp_lib_quoted_string_io;
+#else
+inline constexpr long quoted_string_io = 0;
+#endif
+
+#if defined(__cpp_lib_philox_engine)
+inline constexpr long philox_engine = __cpp_lib_philox_engine;
+#else
+inline constexpr long philox_engine = 0;
+#endif
+
+#if defined(__cpp_lib_ranges)
+inline constexpr long ranges = __cpp_lib_ranges;
+#else
+inline constexpr long ranges = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_as_const)
+inline constexpr long ranges_as_const = __cpp_lib_ranges_as_const;
+#else
+inline constexpr long ranges_as_const = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_as_rvalue)
+inline constexpr long ranges_as_rvalue = __cpp_lib_ranges_as_rvalue;
+#else
+inline constexpr long ranges_as_rvalue = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_cache_latest)
+inline constexpr long ranges_cache_latest = __cpp_lib_ranges_cache_latest;
+#else
+inline constexpr long ranges_cache_latest = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_cartesian_product)
+inline constexpr long ranges_cartesian_product = __cpp_lib_ranges_cartesian_product;
+#else
+inline constexpr long ranges_cartesian_product = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_chunk)
+inline constexpr long ranges_chunk = __cpp_lib_ranges_chunk;
+#else
+inline constexpr long ranges_chunk = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_chunk_by)
+inline constexpr long ranges_chunk_by = __cpp_lib_ranges_chunk_by;
+#else
+inline constexpr long ranges_chunk_by = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_concat)
+inline constexpr long ranges_concat = __cpp_lib_ranges_concat;
+#else
+inline constexpr long ranges_concat = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_contains)
+inline constexpr long ranges_contains = __cpp_lib_ranges_contains;
+#else
+inline constexpr long ranges_contains = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_enumerate)
+inline constexpr long ranges_enumerate = __cpp_lib_ranges_enumerate;
+#else
+inline constexpr long ranges_enumerate = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_find_last)
+inline constexpr long ranges_find_last = __cpp_lib_ranges_find_last;
+#else
+inline constexpr long ranges_find_last = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_fold)
+inline constexpr long ranges_fold = __cpp_lib_ranges_fold;
+#else
+inline constexpr long ranges_fold = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_generate_random)
+inline constexpr long ranges_generate_random = __cpp_lib_ranges_generate_random;
+#else
+inline constexpr long ranges_generate_random = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_iota)
+inline constexpr long ranges_iota = __cpp_lib_ranges_iota;
+#else
+inline constexpr long ranges_iota = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_join_with)
+inline constexpr long ranges_join_with = __cpp_lib_ranges_join_with;
+#else
+inline constexpr long ranges_join_with = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_repeat)
+inline constexpr long ranges_repeat = __cpp_lib_ranges_repeat;
+#else
+inline constexpr long ranges_repeat = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_reserve_hint)
+inline constexpr long ranges_reserve_hint = __cpp_lib_ranges_reserve_hint;
+#else
+inline constexpr long ranges_reserve_hint = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_slide)
+inline constexpr long ranges_slide = __cpp_lib_ranges_slide;
+#else
+inline constexpr long ranges_slide = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_starts_ends_with)
+inline constexpr long ranges_starts_ends_with = __cpp_lib_ranges_starts_ends_with;
+#else
+inline constexpr long ranges_starts_ends_with = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_stride)
+inline constexpr long ranges_stride = __cpp_lib_ranges_stride;
+#else
+inline constexpr long ranges_stride = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_to_container)
+inline constexpr long ranges_to_container = __cpp_lib_ranges_to_container;
+#else
+inline constexpr long ranges_to_container = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_to_input)
+inline constexpr long ranges_to_input = __cpp_lib_ranges_to_input;
+#else
+inline constexpr long ranges_to_input = 0;
+#endif
+
+#if defined(__cpp_lib_ranges_zip)
+inline constexpr long ranges_zip = __cpp_lib_ranges_zip;
+#else
+inline constexpr long ranges_zip = 0;
+#endif
+
+#if defined(__cpp_lib_ratio)
+inline constexpr long ratio = __cpp_lib_ratio;
+#else
+inline constexpr long ratio = 0;
+#endif
+
+#if defined(__cpp_lib_raw_memory_algorithms)
+inline constexpr long raw_memory_algorithms = __cpp_lib_raw_memory_algorithms;
+#else
+inline constexpr long raw_memory_algorithms = 0;
+#endif
+
+#if defined(__cpp_lib_rcu)
+inline constexpr long rcu = __cpp_lib_rcu;
+#else
+inline constexpr long rcu = 0;
+#endif
+
+#if defined(__cpp_lib_reference_from_temporary)
+inline constexpr long reference_from_temporary = __cpp_lib_reference_from_temporary;
+#else
+inline constexpr long reference_from_temporary = 0;
+#endif
+
+#if defined(__cpp_lib_reference_wrapper)
+inline constexpr long reference_wrapper = __cpp_lib_reference_wrapper;
+#else
+inline constexpr long reference_wrapper = 0;
+#endif
+
+#if defined(__cpp_lib_remove_cvref)
+inline constexpr long remove_cvref = __cpp_lib_remove_cvref;
+#else
+inline constexpr long remove_cvref = 0;
+#endif
+
+#if defined(__cpp_lib_result_of_sfinae)
+inline constexpr long result_of_sfinae = __cpp_lib_result_of_sfinae;
+#else
+inline constexpr long result_of_sfinae = 0;
+#endif
+
+#if defined(__cpp_lib_robust_nonmodifying_seq_ops)
+inline constexpr long robust_nonmodifying_seq_ops = __cpp_lib_robust_nonmodifying_seq_ops;
+#else
+inline constexpr long robust_nonmodifying_seq_ops = 0;
+#endif
+
+#if defined(__cpp_lib_sample)
+inline constexpr long sample = __cpp_lib_sample;
+#else
+inline constexpr long sample = 0;
+#endif
+
+#if defined(__cpp_lib_saturation_arithmetic)
+inline constexpr long saturation_arithmetic = __cpp_lib_saturation_arithmetic;
+#else
+inline constexpr long saturation_arithmetic = 0;
+#endif
+
+#if defined(__cpp_lib_scoped_lock)
+inline constexpr long scoped_lock = __cpp_lib_scoped_lock;
+#else
+inline constexpr long scoped_lock = 0;
+#endif
+
+#if defined(__cpp_lib_semaphore)
+inline constexpr long semaphore = __cpp_lib_semaphore;
+#else
+inline constexpr long semaphore = 0;
+#endif
+
+#if defined(__cpp_lib_senders)
+inline constexpr long senders = __cpp_lib_senders;
+#else
+inline constexpr long senders = 0;
+#endif
+
+#if defined(__cpp_lib_shared_mutex)
+inline constexpr long shared_mutex = __cpp_lib_shared_mutex;
+#else
+inline constexpr long shared_mutex = 0;
+#endif
+
+#if defined(__cpp_lib_shared_ptr_arrays)
+inline constexpr long shared_ptr_arrays = __cpp_lib_shared_ptr_arrays;
+#else
+inline constexpr long shared_ptr_arrays = 0;
+#endif
+
+#if defined(__cpp_lib_shared_ptr_weak_type)
+inline constexpr long shared_ptr_weak_type = __cpp_lib_shared_ptr_weak_type;
+#else
+inline constexpr long shared_ptr_weak_type = 0;
+#endif
+
+#if defined(__cpp_lib_shared_timed_mutex)
+inline constexpr long shared_timed_mutex = __cpp_lib_shared_timed_mutex;
+#else
+inline constexpr long shared_timed_mutex = 0;
+#endif
+
+#if defined(__cpp_lib_shift)
+inline constexpr long shift = __cpp_lib_shift;
+#else
+inline constexpr long shift = 0;
+#endif
+
+#if defined(__cpp_lib_simd)
+inline constexpr long simd = __cpp_lib_simd;
+#else
+inline constexpr long simd = 0;
+#endif
+
+#if defined(__cpp_lib_smart_ptr_for_overwrite)
+inline constexpr long smart_ptr_for_overwrite = __cpp_lib_smart_ptr_for_overwrite;
+#else
+inline constexpr long smart_ptr_for_overwrite = 0;
+#endif
+
+#if defined(__cpp_lib_smart_ptr_owner_equality)
+inline constexpr long smart_ptr_owner_equality = __cpp_lib_smart_ptr_owner_equality;
+#else
+inline constexpr long smart_ptr_owner_equality = 0;
+#endif
+
+#if defined(__cpp_lib_source_location)
+inline constexpr long source_location = __cpp_lib_source_location;
+#else
+inline constexpr long source_location = 0;
+#endif
+
+#if defined(__cpp_lib_span)
+inline constexpr long span = __cpp_lib_span;
+#else
+inline constexpr long span = 0;
+#endif
+
+#if defined(__cpp_lib_span_initializer_list)
+inline constexpr long span_initializer_list = __cpp_lib_span_initializer_list;
+#else
+inline constexpr long span_initializer_list = 0;
+#endif
+
+#if defined(__cpp_lib_spanstream)
+inline constexpr long spanstream = __cpp_lib_spanstream;
+#else
+inline constexpr long spanstream = 0;
+#endif
+
+#if defined(__cpp_lib_ssize)
+inline constexpr long ssize = __cpp_lib_ssize;
+#else
+inline constexpr long ssize = 0;
+#endif
+
+#if defined(__cpp_lib_sstream_from_string_view)
+inline constexpr long sstream_from_string_view = __cpp_lib_sstream_from_string_view;
+#else
+inline constexpr long sstream_from_string_view = 0;
+#endif
+
+#if defined(__cpp_lib_stacktrace)
+inline constexpr long stacktrace = __cpp_lib_stacktrace;
+#else
+inline constexpr long stacktrace = 0;
+#endif
+
+#if defined(__cpp_lib_start_lifetime_as)
+inline constexpr long start_lifetime_as = __cpp_lib_start_lifetime_as;
+#else
+inline constexpr long start_lifetime_as = 0;
+#endif
+
+#if defined(__cpp_lib_starts_ends_with)
+inline constexpr long starts_ends_with = __cpp_lib_starts_ends_with;
+#else
+inline constexpr long starts_ends_with = 0;
+#endif
+
+#if defined(__cpp_lib_stdatomic_h)
+inline constexpr long stdatomic_h = __cpp_lib_stdatomic_h;
+#else
+inline constexpr long stdatomic_h = 0;
+#endif
+
+#if defined(__cpp_lib_string_contains)
+inline constexpr long string_contains = __cpp_lib_string_contains;
+#else
+inline constexpr long string_contains = 0;
+#endif
+
+#if defined(__cpp_lib_string_resize_and_overwrite)
+inline constexpr long string_resize_and_overwrite = __cpp_lib_string_resize_and_overwrite;
+#else
+inline constexpr long string_resize_and_overwrite = 0;
+#endif
+
+#if defined(__cpp_lib_string_udls)
+inline constexpr long string_udls = __cpp_lib_string_udls;
+#else
+inline constexpr long string_udls = 0;
+#endif
+
+#if defined(__cpp_lib_string_view)
+inline constexpr long string_view = __cpp_lib_string_view;
+#else
+inline constexpr long string_view = 0;
+#endif
+
+#if defined(__cpp_lib_submdspan)
+inline constexpr long submdspan = __cpp_lib_submdspan;
+#else
+inline constexpr long submdspan = 0;
+#endif
+
+#if defined(__cpp_lib_syncbuf)
+inline constexpr long syncbuf = __cpp_lib_syncbuf;
+#else
+inline constexpr long syncbuf = 0;
+#endif
+
+#if defined(__cpp_lib_text_encoding)
+inline constexpr long text_encoding = __cpp_lib_text_encoding;
+#else
+inline constexpr long text_encoding = 0;
+#endif
+
+#if defined(__cpp_lib_three_way_comparison)
+inline constexpr long three_way_comparison = __cpp_lib_three_way_comparison;
+#else
+inline constexpr long three_way_comparison = 0;
+#endif
+
+#if defined(__cpp_lib_to_address)
+inline constexpr long to_address = __cpp_lib_to_address;
+#else
+inline constexpr long to_address = 0;
+#endif
+
+#if defined(__cpp_lib_to_array)
+inline constexpr long to_array = __cpp_lib_to_array;
+#else
+inline constexpr long to_array = 0;
+#endif
+
+#if defined(__cpp_lib_to_chars)
+inline constexpr long to_chars = __cpp_lib_to_chars;
+#else
+inline constexpr long to_chars = 0;
+#endif
+
+#if defined(__cpp_lib_to_string)
+inline constexpr long to_string = __cpp_lib_to_string;
+#else
+inline constexpr long to_string = 0;
+#endif
+
+#if defined(__cpp_lib_to_underlying)
+inline constexpr long to_underlying = __cpp_lib_to_underlying;
+#else
+inline constexpr long to_underlying = 0;
+#endif
+
+#if defined(__cpp_lib_transformation_trait_aliases)
+inline constexpr long transformation_trait_aliases = __cpp_lib_transformation_trait_aliases;
+#else
+inline constexpr long transformation_trait_aliases = 0;
+#endif
+
+#if defined(__cpp_lib_transparent_operators)
+inline constexpr long transparent_operators = __cpp_lib_transparent_operators;
+#else
+inline constexpr long transparent_operators = 0;
+#endif
+
+#if defined(__cpp_lib_trivially_relocatable)
+inline constexpr long trivially_relocatable = __cpp_lib_trivially_relocatable;
+#else
+inline constexpr long trivially_relocatable = 0;
+#endif
+
+#if defined(__cpp_lib_tuple_element_t)
+inline constexpr long tuple_element_t = __cpp_lib_tuple_element_t;
+#else
+inline constexpr long tuple_element_t = 0;
+#endif
+
+#if defined(__cpp_lib_tuple_like)
+inline constexpr long tuple_like = __cpp_lib_tuple_like;
+#else
+inline constexpr long tuple_like = 0;
+#endif
+
+#if defined(__cpp_lib_tuples_by_type)
+inline constexpr long tuples_by_type = __cpp_lib_tuples_by_type;
+#else
+inline constexpr long tuples_by_type = 0;
+#endif
+
+#if defined(__cpp_lib_type_identity)
+inline constexpr long type_identity = __cpp_lib_type_identity;
+#else
+inline constexpr long type_identity = 0;
+#endif
+
+#if defined(__cpp_lib_type_trait_variable_templates)
+inline constexpr long type_trait_variable_templates = __cpp_lib_type_trait_variable_templates;
+#else
+inline constexpr long type_trait_variable_templates = 0;
+#endif
+
+#if defined(__cpp_lib_uncaught_exceptions)
+inline constexpr long uncaught_exceptions = __cpp_lib_uncaught_exceptions;
+#else
+inline constexpr long uncaught_exceptions = 0;
+#endif
+
+#if defined(__cpp_lib_unordered_map_try_emplace)
+inline constexpr long unordered_map_try_emplace = __cpp_lib_unordered_map_try_emplace;
+#else
+inline constexpr long unordered_map_try_emplace = 0;
+#endif
+
+#if defined(__cpp_lib_unreachable)
+inline constexpr long unreachable = __cpp_lib_unreachable;
+#else
+inline constexpr long unreachable = 0;
+#endif
+
+#if defined(__cpp_lib_unwrap_ref)
+inline constexpr long unwrap_ref = __cpp_lib_unwrap_ref;
+#else
+inline constexpr long unwrap_ref = 0;
+#endif
+
+#if defined(__cpp_lib_variant)
+inline constexpr long variant = __cpp_lib_variant;
+#else
+inline constexpr long variant = 0;
+#endif
+
+#if defined(__cpp_lib_void_t)
+inline constexpr long void_t_ = __cpp_lib_void_t;
+#else
+inline constexpr long void_t_ = 0;
+#endif
+
+} // namespace dywoq::version_wrapper::library
+
 #endif
