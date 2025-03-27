@@ -1,6 +1,7 @@
 {
 	"files.associations": {
 		".clangd": "yaml",
-		".clang-format": "yaml"
+		".clang-format": "yaml",
+		".gitattributes": "git"
 	}
 }
