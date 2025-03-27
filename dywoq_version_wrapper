@@ -1,0 +1,16 @@
+#ifndef _DYWOQ_VERSION_WRAPPER
+#define _DYWOQ_VERSION_WRAPPER
+
+#include <version>
+
+namespace dywoq::version_wrapper::language {
+
+#if defined(__cpp_aggregate_bases)
+inline constexpr long aggergate_bases = __cpp_aggregate_bases;
+#else
+inline constexpr long aggergate_bases = 0;
+#endif
+
+} // namespace dywoq::version_wrapper::language
+
+#endif
